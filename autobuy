@@ -1,4 +1,3 @@
-```lua
 local players = game:GetService("Players")
 local lplr = players.LocalPlayer
 local ignored = {
@@ -15,4 +14,4 @@ repeat
             fireproximityprompt(v.HumanoidRootPart.PromptAttachment.ProximityPrompt)
         end
     end
-until not game```
+until not game
